@@ -8,7 +8,7 @@
 .sidebar__search{
     display: flex;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgba(179, 174, 174, 0.747);
     padding: 10px;
     height: 39px;
 }
@@ -21,6 +21,10 @@
     height: 35px;
     border-radius: 20px;
 
+}
+
+.sidebar__headerRight > .MuiIconButton-label{
+    color: whitesmoke;
 }
 
 .sidebar__search__container > .MuiSvgIcon-root{
@@ -37,7 +41,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border-right: 1px solid lightgray;
+    border-right: 1px solid rgb(151, 145, 145);
 
 }
 

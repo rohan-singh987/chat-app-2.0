@@ -41,7 +41,8 @@ const Chat = () => {
         </div>
 
         <div className="chat__body">
-            
+            <p className="chat_message">Hey Guys!!!</p>
+            <p className="chat_message">How are you?</p>
         </div>
 
         <div className="chat__footer">

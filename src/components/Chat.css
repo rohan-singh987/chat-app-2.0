@@ -1,11 +1,14 @@
 .chat{
+    display: flex;
     flex: 0.65;
+    flex-direction: column;
 }
 
 .chat__header{
     padding: 20px;
     display: flex;
     align-items: center;
+    color: rgb(255, 255, 255);
     border-bottom: 1px solid lightgray;
 }
 
@@ -20,7 +23,19 @@
 }
 
 .chat__headerInfo > p{
-    color: gray;
+    color: rgb(231, 223, 223);
+}
+
+
+
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    background-color:rgba(216, 191, 216, 0.637);
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -28,4 +43,14 @@
     display: flex;
     justify-content: space-between;
     min-width: 100px;
+} 
+
+.chat__body{
+    flex: 1;
+    background-color: #D6E2E6;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    color: rgb(44, 43, 43);
+    padding: 30px;
+    overflow: scroll;
 }
